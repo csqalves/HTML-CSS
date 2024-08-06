@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/pena verde.ico" type="x-icon">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você esta vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiencia.</p>
+    
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/rio500.jpg" type="image/jpg">
+        <source media="(max-width: 1000px)" srcset="imagens/rio750.jpg" type="image/jpg">
+        <img src="imagens/rio1000.jpg" alt="imagem flexivel">
+    </picture>
+</body>
+</html>
